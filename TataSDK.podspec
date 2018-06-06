@@ -19,7 +19,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
   s.vendored_frameworks = 'TataSDK/Frameworks/TATASDK.framework'
   s.resources = 'TataSDK/Support/ImageAssets.bundle'
-  s.dependency 'AFNetworking', 'YYWebImage', 'MJExtension'
+  s.dependency 'AFNetworking'
+  s.dependency 'YYWebImage'
+  s.dependency 'MJExtension'
   # s.libraries        = 'sqlite3', 'AssetsLibrary'
   # s.source_files = 'TataSDK/Classes/**/*'
   
