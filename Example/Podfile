@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'TataSDK_Example' do
+  pod 'TataSDK', :path => '../'
+
+  target 'TataSDK_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

@@ -1,0 +1,6 @@
+framework module TataSDK {
+  umbrella header "TataSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_TataSDK_Tests {
+  umbrella header "Pods-TataSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
