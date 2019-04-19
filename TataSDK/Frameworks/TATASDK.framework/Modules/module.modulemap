@@ -1,6 +1,0 @@
-framework module TATASDK {
-  umbrella header "TATASDK.h"
-
-  export *
-  module * { export * }
-}
