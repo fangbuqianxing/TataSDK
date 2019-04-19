@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking'
   # s.dependency 'YYWebImage'
   # s.dependency 'MJExtension'
-  s.libraries        = 'libc++.tbd', 'AssetsLibrary'
+  # s.libraries        = 'libc++.tbd', 'AssetsLibrary'
   # s.source_files = 'TataSDK/Classes/**/*'
   
   # s.resource_bundles = {
